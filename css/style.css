@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(255 255 255);
+}
+h1{
+    font-size: 39px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+.navbar{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1200px;
+    position: relative;
+    left: 130px;
+    
+    
+}
+.search{
+    display: flex;
+   
+   border: 1px solid black;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+   
+}
+.search-icon{
+    display: flex;
+    align-items: center;
+}
+.select{
+    height: 53px;
+    width: 243px;
+    border: none;
+}
+.location{
+    display: inline-block;
+    height: 53px;
+    width: 40px;
+    
+    position: relative;
+    top: 15px;
+    left: 15px;
+   
+
+}
+.location i{
+font-size: 25px;
+color: red;
+}
+.search-resto{
+    height: 53px;
+    width: 40px;
+    position: relative;
+    top: 15px;
+    left: 8px;
+}
+.search-resto i{
+    font-size: 25px;
+    color: rgb(93, 90, 90);
+}
+
+.input{
+    height: 53px;
+    width: 370px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    
+
+    
+}
+.login {
+    text-decoration: none;
+    font-size: 23px;
+    color: black;
+    font-weight: 200;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.login a{
+    text-decoration: none;
+}
+.deneer-timing{
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    margin-top: 30px;
+    width: 1200px;
+    margin-left: 130px;
+    
+    padding-left: 40px ;
+
+}
+.delivery {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: inline-block;
+
+   
+}
+.first{
+    display: flex;
+    align-items: center;
+    
+    margin-left: 20px;
+}
+.first a{
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 8px;
+    
+}
+.delivery i{
+    font-size: 25px;
+    position: relative;
+    top: 9px;
+    left: 8px;
+}
+.second{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.second a{
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 8px;
+}
+.dinning{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: inline-block;
+}
+.dinning i{
+    font-size: 25px;
+    position: relative;
+    top: 9px;
+    left: 8px;
+}
+.third{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.third a{
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 8px;
+}
+.night-out{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: inline-block;
+}
+.night-out i{
+    font-size: 25px;
+    position: relative;
+    top: 9px;
+    left: 8px;
+}
+.body-of-food{
+    margin-top: 30px;
+    padding-top: 20px;
+    border: 2px solid black;
+    height: 320px;
+    width: 1000px;
+    position: relative;
+    left: 200px; 
+
+
+    
+}
+.main-container{
+
+    margin-top: 30px;
+    padding-top: 20px;
+    border: 2px solid black;
+    height: 100%;
+    width: 1000px;
+    position: relative;
+    left: 200px; 
+}
+.heading-about-food{
+  
+   font-size: 35px;
+   font-weight: 500px;
+  
+   
+   
+
+}
+.impiration{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+ .img{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    }
+.para{
+    text-align: center;
+}
+.top-brand{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.best-food-in-pune{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.kng-family{
+    margin-bottom: 60px;
+    border: 2px solid black;
+   height: 30%;
+
+}
+
+.kng-family img{
+    height:240px ;
+    width: 300px;
+    border-radius: 20px;
+  margin: 9px;
+   
+}
+.aage-ka{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.city-name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+.aage-ka{
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.offer{
+    font-size: 20px;
+    font-weight: 500;
+}
+.city-name-1{
+    font-size:15px ;
+}
+.city-name{
+    margin-top: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
