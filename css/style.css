@@ -170,7 +170,7 @@ color: red;
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: inline-block;
 }
 .night-out i{
@@ -182,7 +182,7 @@ color: red;
 .body-of-food{
     margin-top: 30px;
     padding-top: 20px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 320px;
     width: 1000px;
     position: relative;
@@ -195,7 +195,7 @@ color: red;
 
     margin-top: 30px;
     padding-top: 20px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 100%;
     width: 1000px;
     position: relative;
@@ -236,12 +236,20 @@ color: red;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 30px;
+    
 }
 .kng-family{
     margin-bottom: 60px;
-    border: 2px solid black;
-   height: 30%;
+    /* border: 2px solid transparent;
+    border-radius: 7px; */
+   height:330px ;
+   
 
+}
+.kng-family:hover{
+   
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    
 }
 
 .kng-family img{
